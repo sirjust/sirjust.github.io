@@ -6,12 +6,18 @@ body {
 }
 
 h1 {
-	font-family: sans-serif;
+	font-family: Georgia, sans-serif;
+	font-style: italic;
 	color: #4242f4;
 }
 
 h2 {
 	text-align: center;
+	color: gray;
+}
+
+.block {
+	display: block;
 }
 
 .container_pic1 {
@@ -21,9 +27,10 @@ h2 {
 }
 
 .card-img-top {
-	width: 190px;
-	height: 190px;
-	margin: 0 30%;
+	width: 140px;
+	height: 140px;
+	margin: 0 33%;
+	background-color: #91bde0;
 }
 
 
