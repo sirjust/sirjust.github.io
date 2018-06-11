@@ -1,7 +1,8 @@
 
 
 body {
-	background-color: #000;
+	background-color: black; /*this is ignored, the color behind is still white*/
+	background: linear-gradient(to right,black,#080320,black);
 	margin-top: 70px;
 }
 
@@ -9,11 +10,30 @@ h1 {
 	font-family: Georgia, sans-serif;
 	font-style: italic;
 	color: #4242f4;
+	text-shadow: 2px,2px,5px,black;
+	/*the text shadow isn't working*/
 }
 
 h2 {
 	text-align: center;
 	color: gray;
+	text-shadow: 2px,2px;
+}
+
+.lead {
+	color: #fff966;
+	font-family: Great Vibes, Cursive;
+	text-shadow: 2px,2px,white;
+}
+
+.navbar {
+	background: linear-gradient(black,darkblue,black,black;)
+	color: blue;
+	/*this is being ignored even when i remove style features in the nav class*/ 
+}
+
+.jumbotron {
+	background: linear-gradient(to right,black,#080320,black);
 }
 
 .card_color {
