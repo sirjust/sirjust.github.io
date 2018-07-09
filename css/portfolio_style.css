@@ -10,7 +10,7 @@ h1 {
 	font-family: Georgia, sans-serif;
 	font-style: italic;
 	color: #4242f4;
-	text-shadow: 2px,2px,5px,black;
+	text-shadow: 2px 2px 5px white;
 	/*the text shadow isn't working*/
 }
 
@@ -23,7 +23,8 @@ h2 {
 .lead {
 	color: #fff966;
 	font-family: Great Vibes, Cursive;
-	text-shadow: 2px,2px,white;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.5),
+    0px -5px 35px rgba(255,255,255);
 }
 
 .navbar {
