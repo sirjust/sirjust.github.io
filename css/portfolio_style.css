@@ -1,7 +1,19 @@
+.navbar{
+    background: linear-gradient(to right,black,#080320,black);
+    box-shadow: 0px 2px 2px black;
+}
 
+ul li.nav-item:hover {
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+
+ul li.nav-item{
+    font-weight:bold;
+}
 
 body {
-	background-color: black; /*this is ignored, the color behind is still white*/
+	background-color: black;
 	background: linear-gradient(to right,black,#080320,black);
 	margin-top: 70px;
 }
@@ -10,14 +22,24 @@ h1 {
 	font-family: Georgia, sans-serif;
 	font-style: italic;
 	color: #4242f4;
-	text-shadow: 2px 2px 5px white;
-	/*the text shadow isn't working*/
+	text-shadow: 2px 2px 5px white,
+	2px 8px 6px rgba(0,0,0,0.5),
+    100px 1px 200px rgba(255,255,255),
+    2px 8px 6px rgba(0,0,0,.5), 
+    -100px 1px 200px rgba(255,255,255);
 }
 
 h2 {
 	text-align: center;
-	color: gray;
+	color: #4242f4;
 	text-shadow: 2px,2px;
+}
+
+h4{
+    color: black;
+    font-family: Georgia, sans-serif;
+    text-shadow: 1px 1px 1px white,
+        -1px -1px 1px white;
 }
 
 .lead {
@@ -30,7 +52,6 @@ h2 {
 .navbar {
 	background: linear-gradient(black,darkblue,black,black;)
 	color: blue;
-	/*this is being ignored even when i remove style features in the nav class*/ 
 }
 
 .jumbotron {
@@ -38,7 +59,15 @@ h2 {
 }
 
 .card_color {
-	background-color: #91bde0;
+	background: linear-gradient(to right,black,#91bde0,black);
+}
+
+.container{
+    position: relative;
+}
+
+#credit-box{
+    position: relative;
 }
 
 .container_pic1 {
@@ -47,14 +76,39 @@ h2 {
 	height: 300px;
 }
 
+.credit {
+    position: relative;
+    bottom: 24px;
+    left: 16px;
+    font-size: 14px;
+    color: #4242f4;
+}
+
 .card-img-top {
 	width: 140px;
 	height: 140px;
-	margin: 0 33%;
+	margin: 0 auto;
 	background-color: #91bde0;
+    box-shadow: 20px 0px 20px,
+    -20px 0px 20px;
 }
 
-
-.btn-group:hover {
+.btn:hover {
 	cursor: pointer;
+}
+
+.btn-group * {
+    padding: 0 10px;
+}
+
+#box {
+    height: 50px;
+    
+}
+
+footer {
+    color: #fff966;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
 }
