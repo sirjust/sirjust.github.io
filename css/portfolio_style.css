@@ -4,8 +4,8 @@
 }
 
 ul li.nav-item:hover {
-    transition: transform .5s;
-    transform: scale(1.1);
+    transition: transform .2s;
+    transform: scale(1.2);
 }
 
 ul li.nav-item{
@@ -13,6 +13,7 @@ ul li.nav-item{
 }
 
 body {
+    display: none;
 	background-color: black;
 	background: linear-gradient(to right,black,#080320,black);
 	margin-top: 70px;
@@ -93,12 +94,28 @@ h4{
     -20px 0px 20px;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.badge{
+    background-color: #080320;
+    box-shadow: 0px 0px 5px #91bde0;
+    margin: 0 5px;
+}
+
 .btn:hover {
 	cursor: pointer;
 }
 
 .btn-group * {
     padding: 0 10px;
+    color: #fff966;
+}
+
+.btn {
+    background: linear-gradient(to right,black,#2B3843,black);
 }
 
 #box {
