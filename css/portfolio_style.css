@@ -43,6 +43,11 @@ h4{
         -1px -1px 1px white;
 }
 
+.spacer{
+    content: "";
+    height: 50px;
+}
+
 .lead {
 	color: #fff966;
 	font-family: Great Vibes, Cursive;
